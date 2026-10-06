@@ -1,1 +1,517 @@
-{}
+{
+  "site": {
+    "name": "Deified Wiki",
+    "shortName": "Deified",
+    "tagline": "ビルド・レリック・ボス・ガイド",
+    "description": "ダークファンタジーなターン制タクティカルローグライト『Deified』のビルド、レリック、ボス、スキル、戦闘戦略、実績、初心者ガイドをDeified Wikiで解説します。",
+    "legalNotice": "非公式のファンウィキです。Goblinz PublishingおよびUnexpectedとは無関係です。プレイヤーによる、プレイヤーのためのサイトです。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切り替え",
+    "guide": "ガイド",
+    "mechanics": "メカニクス",
+    "combat": "戦闘",
+    "progression": "進行",
+    "controls": "操作",
+    "modes": "モード",
+    "community": "コミュニティ",
+    "codes": "コード"
+  },
+  "home": {
+    "meta": {
+      "title": "Deified Wiki - ビルド・レリック・ボス・ガイド",
+      "description": "ダークファンタジーなターン制タクティカルローグライト『Deified』のビルド、レリック、ボス、スキル、戦闘戦略、実績、初心者ガイドをDeified Wikiで解説します。"
+    },
+    "hero": {
+      "eyebrow": "ターン制タクティカルローグライト",
+      "title": "Deified Wiki",
+      "description": "Deifiedは、呪われたレリックを集めて復元し、強力なスロットを管理し、シナジーを組み立て、7体の強敵ボスと戦うダークファンタジーのターン制タクティカルローグライトです。",
+      "stats": [
+        "ユーザーレビュー460件以上",
+        "実績44個",
+        "ボス7体",
+        "2026年9月21日リリース"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "レリックデータベース",
+      "tertiaryCta": "Steamでプレイ",
+      "videoLabel": "ゲームプレイ動画"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "はじめに",
+      "title": "Deifiedの旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "ターン制の基本ループ、戦闘の基礎、序盤の強化優先度を学び、最初のランでも前進できるようにしましょう。"
+        },
+        {
+          "number": "2",
+          "title": "レリックの復元",
+          "description": "調律、聖別、昇華、そしてレリックをビルドを決定づける神話級アイテムへ変える神格化の儀式を理解しましょう。"
+        },
+        {
+          "number": "3",
+          "title": "最強ビルド",
+          "description": "装備やステータスより先にビルドの型を選びましょう。壊れやすいアセンダント・ストライカーからソロ向けのバルワーク・デイティまで。"
+        },
+        {
+          "number": "4",
+          "title": "全コード",
+          "description": "無料通貨、ブースト、コスメが手に入る最新のDeifiedコードを入手し、期限切れ前に引き換える方法を学びましょう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "今話題の記事",
+      "quickLinks": [
+        "初心者ガイド",
+        "レリックティア",
+        "ビルドの型",
+        "ボスのフェーズ"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "Deified 初心者ガイド",
+          "description": "操作、戦闘の癖、強化の優先度、そして新規プレイヤーの足を止めるよくある失敗。",
+          "href": "/guide/deified-beginner-guide"
+        },
+        {
+          "badge": "更新済み",
+          "title": "Deified 全コード",
+          "description": "機能するDeifiedコードと報酬、有効期限の注意、段階的な引き換え手順。",
+          "href": "/codes/deified-codes"
+        },
+        {
+          "badge": "基本",
+          "title": "Deified レリック解説",
+          "description": "レリックの段階、素材コスト、失敗リスク、SからCまでの神格化優先ティア。",
+          "href": "/mechanics/deified-relics"
+        },
+        {
+          "badge": "人気",
+          "title": "Deified ビルドの型",
+          "description": "5つのビルド形状をステータス優先度とブレイクポイントの助言とともに比較。",
+          "href": "/mechanics/deified-builds"
+        },
+        {
+          "badge": "ボス",
+          "title": "Deified ボス戦ガイド",
+          "description": "三幕構成、予備動作の読み方、神々との戦いの罰則チャート。",
+          "href": "/combat/deified-boss-fights"
+        },
+        {
+          "badge": "スキル",
+          "title": "Deified スキル構築",
+          "description": "ポイントを段階的に配分し、収益が減る前にソフトキャップで止めましょう。",
+          "href": "/mechanics/deified-skill-building"
+        },
+        {
+          "badge": "人気",
+          "title": "Deified クラス進行",
+          "description": "基本・上級・覚醒・神格化のクラス段階とその解放条件。",
+          "href": "/progression/deified-classes"
+        },
+        {
+          "badge": "新着",
+          "title": "高難度ローグライクモード",
+          "description": "各難易度修正がどの利点を奪うか、そして最難関を生き残るビルド。",
+          "href": "/modes/deified-challenging-roguelike"
+        },
+        {
+          "badge": "操作",
+          "title": "Deified PC操作",
+          "description": "既定の割り当て、再割り当ての手順、素早い反応のためのキー設定の調整。",
+          "href": "/controls/deified-pc-controls"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Deifiedとは？",
+      "paragraphs": [
+        "Deifiedは、Unexpectedが開発しGoblinz Publishingがパブリッシュするダークファンタジーのターン制タクティカルローグライトです。呪われたレリックを集め、多段階の神格化の儀式で復元し、強力なスロットを管理し、ランを重ねてあなたを支えるシナジーを組み立てます。",
+        "各ランはターン制の戦術戦闘とラン間の永続的な進行を組み合わせています。7体の強敵ボスがそれぞれ固有の呪いを帯び、それが普段は頼りになる戦略を崩すことがあります。一方でスキルツリーとクラス昇華は、基本キットが頭打ちになるたびに成長曲線を再び開きます。Deifiedは2026年4月27日に早期アクセスを開始し、2026年9月21日に1.0へ到達しました。"
+      ],
+      "stats": [
+        {
+          "label": "開発元",
+          "value": "Unexpected"
+        },
+        {
+          "label": "パブリッシャー",
+          "value": "Goblinz Publishing"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ターン制タクティカルローグライト"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "Steam / PC"
+        },
+        {
+          "label": "リリース日",
+          "value": "2026年9月21日"
+        },
+        {
+          "label": "ボス",
+          "value": "7"
+        },
+        {
+          "label": "実績",
+          "value": "44"
+        },
+        {
+          "label": "ユーザーレビュー",
+          "value": "460+"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Deified Wikiを探る",
+      "description": "進行ガイド、レリックとビルドの解説、ボス戦略、有効なコード、実績チェックリストで、このダークファンタジーなターン制タクティカルローグライト『Deified』を極めましょう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Deified 初心者ガイド",
+          "description": "ターン制ローグライクの基本ループ、レリックの復元、スロット管理、戦闘ルール、そして予備知識なしで最初のランに挑む方法を学びます。",
+          "href": "/guide/deified-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "最初の本格的な戦闘の前に、すべての操作を覚え、各行動を試しましょう。"
+            },
+            {
+              "label": "2",
+              "detail": "主要な進行リソースは、投機的な強化に使わず貯めておきましょう。"
+            },
+            {
+              "label": "3",
+              "detail": "まず生存の基礎を整え、敵のタイミングを学べるよう長く生き残りましょう。"
+            },
+            {
+              "label": "4",
+              "detail": "1セッションにつき1体のボスを研究し、挑戦を散らさず1つの戦闘を繰り返しましょう。"
+            },
+            {
+              "label": "5",
+              "detail": "クリア済みのエリアを再訪しましょう。ビルドが安定すれば効率的なリソース稼ぎ場になります。"
+            },
+            {
+              "label": "6",
+              "detail": "ランを深く進める前に、ボスごとにビルドを見直しましょう。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Deified レリック",
+          "description": "レリックの種類、断片、復元、ボーナス、デメリット、そしてビルドが終盤コンテンツを突破できるかを決めるシナジー構成を扱います。",
+          "href": "/mechanics/deified-relics",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "まったく新しいメカニクスやリソースを与えるレリック — これらを最優先で神格化しましょう。"
+            },
+            {
+              "label": "A",
+              "detail": "上限やクールダウンを撤廃するレリック — 素材が許す限り早く神格化しましょう。"
+            },
+            {
+              "label": "B",
+              "detail": "大きな固定値または割合のステータス強化 — SとAを整えた後に神格化しましょう。"
+            },
+            {
+              "label": "C",
+              "detail": "軽微なユーティリティや利便性の効果 — 余剰素材がない限り見送りましょう。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Deified ビルド",
+          "description": "レリックのシナジー、スロット選択、スキル進行を軸に効果的なビルドを整理し、根拠のないキャラクターtierリストではなく推奨構成を示します。",
+          "href": "/mechanics/deified-builds",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ストライカー",
+              "detail": "アセンダント・ストライカーは攻撃スケーリングを重ね、単体ボスに高ダメージを与えます。"
+            },
+            {
+              "label": "バルワーク",
+              "detail": "バルワーク・デイティは体力と軽減に投資し、昇華コンテンツをソロで生き残ります。"
+            },
+            {
+              "label": "オラクル",
+              "detail": "持続型オラクルは支援力とクールダウン短縮でパーティを生存させます。"
+            },
+            {
+              "label": "ハイブリッド",
+              "detail": "ハイブリッド・アセンダントは攻守を分け、振り直し不要の柔軟なランを実現します。"
+            },
+            {
+              "label": "バースト",
+              "detail": "エクセキューショナーはバーストとクリティカルを重ね、低体力の標的を排除します。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Deified ボス",
+          "description": "ゲームの主要ボスの実践的なリファレンス。固有の呪いと、勝利を左右する戦闘上の考慮点を掲載します。",
+          "href": "/combat/deified-boss-fights",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "第1幕",
+              "detail": "人間フェーズ — 正確なコンボ。罰則の隙を学び、リスクを取らない。"
+            },
+            {
+              "label": "第2幕",
+              "detail": "昇華フェーズ — 新形態とアリーナの変化により、新たなタイミング表が必要になる。"
+            },
+            {
+              "label": "第3幕",
+              "detail": "絶望フェーズ — タイミングが圧縮され激怒。確実な隙だけを突く。"
+            },
+            {
+              "label": "偵察",
+              "detail": "1回の挑戦を勝利ではなく観察に使い、罰則チャートを作りましょう。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Deified スキルツリー",
+          "description": "スキルツリーの進行、解放可能な選択肢、永続解放が今後のランの選択肢をどう変えるかを解説します。",
+          "href": "/mechanics/deified-skill-building",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "役割を決めることから始めましょう。ポイントを使う前に、ビルドが果たすべきことを決めます。"
+            },
+            {
+              "label": "2",
+              "detail": "高価なシナジーパーツより先に、生存と安定性の層に投資しましょう。"
+            },
+            {
+              "label": "3",
+              "detail": "ポイントを段階ごとに配分し、収益逓減を追わずソフトキャップで止めましょう。"
+            },
+            {
+              "label": "4",
+              "detail": "完全な振り直しを決める前に、低リスクのコンテンツで各新ノードを試しましょう。"
+            },
+            {
+              "label": "5",
+              "detail": "終盤の解放で報われる道が変わるため、ボスごとにツリーを見直しましょう。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Deified 呪い",
+          "description": "呪いシステムと、ボスの呪いが普段は頼りになる戦略をどう崩すかを解説し、レリック、スロット、戦闘の実践的な準備のコツを紹介します。",
+          "href": "/mechanics/deified-dark-relic-builds",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "偵察",
+              "detail": "ボスの呪いは欲張りなビルドを罰するので、決める前に各戦闘を偵察しましょう。"
+            },
+            {
+              "label": "準備",
+              "detail": "回復と防御のレリックを確保し、呪いで唯一の逃げ道を奪われないようにしましょう。"
+            },
+            {
+              "label": "レリック",
+              "detail": "一部の呪いはレリック効果を無効化・反転させるので、予備のシナジーを用意しましょう。"
+            },
+            {
+              "label": "スロット",
+              "detail": "呪いの圧力でスロット選択が重要になります — ランを支えるレリックを守りましょう。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Deified チャレンジ",
+          "description": "進行やアップデートで追加される追加チャレンジ、ランモディファイア、上級コンテンツを扱い、標準的なラン以上のものを求めるプレイヤー向けに解説します。",
+          "href": "/modes/deified-challenging-roguelike",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "モード",
+              "detail": "各難易度モードは利点を1つ奪います — 始める前に契約を読みましょう。"
+            },
+            {
+              "label": "Mod",
+              "detail": "ランモディファイアは敵と報酬を同時にスケールさせるので、安定性を重視して組みましょう。"
+            },
+            {
+              "label": "ティア",
+              "detail": "高難度ティアは反応時間を圧縮します。安定したダメージが脆いバーストに勝ります。"
+            },
+            {
+              "label": "目標",
+              "detail": "任意目標はユニークな報酬とともに標準ランを超えさせます。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Deified 実績",
+          "description": "ゲームのSteam実績を一覧化し、ボス撃破、進行の節目、探索、特別目標ごとに整理して、コンプリート志向のプレイヤー向けにまとめます。",
+          "href": "/guide/deified-full-run",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "初めての昇華",
+              "detail": "最初の神格化の儀式を完了する。",
+              "badge": "節目"
+            },
+            {
+              "label": "七つの呪い",
+              "detail": "7体のボスとその固有の呪いをすべて倒す。",
+              "badge": "ボス"
+            },
+            {
+              "label": "レリック収集家",
+              "detail": "すべてのスロットでレリック一式を復元する。",
+              "badge": "コレクション"
+            },
+            {
+              "label": "スキル設計者",
+              "detail": "スキルツリーの最終ティアを解放する。",
+              "badge": "進行"
+            },
+            {
+              "label": "完全クリア",
+              "detail": "一度も敗北せずに1回のランを完走する。",
+              "badge": "チャレンジ"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "Deifiedに関するよくある質問への手早い回答。",
+      "items": [
+        {
+          "question": "Deifiedとは？",
+          "answer": "Deifiedは、Unexpectedが開発しGoblinz Publishingがパブリッシュするダークファンタジーのターン制タクティカルローグライトです。呪われたレリックを集めて神格化で復元し、強力なスロットを管理し、繰り返し遊べるランで7体のボスと戦います。"
+        },
+        {
+          "question": "Deifiedは初心者向けですか？",
+          "answer": "Deifiedは序盤の難易度が高めですが、Deified初心者ガイドが操作、戦闘の基礎、序盤の強化優先度を案内するので、最初のランでも前進できます。"
+        },
+        {
+          "question": "Deifiedのレリックとは何で、どう神格化しますか？",
+          "answer": "Deifiedのレリックはパッシブボーナスを持つ装備可能なアーティファクトです。調律、聖別、昇華を経て、最後の神格化の段階で固有の神話級効果が付与されます。その段階の触媒がたいてい本当のボトルネックになります。"
+        },
+        {
+          "question": "どのDeifiedビルドから始めるべきですか？",
+          "answer": "まずは生存重視のバルワーク・デイティか柔軟なハイブリッド・アセンダントから始め、ボスのパターンを覚えたらアセンダント・ストライカーへ移行しましょう。Deifiedは序盤、脆いバーストよりも安定性を報います。"
+        },
+        {
+          "question": "Deifiedのコードはありますか？",
+          "answer": "はい。Deifiedのコードは無料通貨、ブースト、コスメが手に入る期間限定のプロモコードです。ほとんどが予告なく失効するので、見つけた当日に引き換えましょう。"
+        },
+        {
+          "question": "Deifiedにはボスと実績がいくつありますか？",
+          "answer": "Deifiedには固有の呪いを持つ7体のボスと、ボス撃破、進行の節目、探索、特別目標を網羅する44個のSteam実績があります。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Deifiedを極める準備はできましたか？",
+      "description": "最初のレリック復元から終盤のボス戦まで、コミュニティウィキが無料で最新のDeifiedガイドを提供します。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steamでプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Deified ガイド",
+    "overviewDescription": "初心者向けウォークスルー、初回ランのコツ、レビュー、そしてダークファンタジーなターン制タクティカルローグライトの完全ラン攻略ロードマップで、Deifiedを好スタートしましょう。"
+  },
+  "mechanics": {
+    "overviewTitle": "Deified メカニクス",
+    "overviewDescription": "Deifiedのレリック、シナジー、ビルド、スキル構築、ダンジョン探索がどうかみ合うかを学びましょう。"
+  },
+  "combat": {
+    "overviewTitle": "Deified 戦闘",
+    "overviewDescription": "ボス戦に加え、近接・メイジ・グラスキャノンのビルド戦略で、Deifiedのターン制タクティカル戦闘を極めましょう。"
+  },
+  "progression": {
+    "overviewTitle": "Deified 進行",
+    "overviewDescription": "ランの成長に合わせて、Deifiedのクラス、メイジとアーチャーの道、レリックビルド、正式リリースの詳細を追いましょう。"
+  },
+  "controls": {
+    "overviewTitle": "Deified 操作",
+    "overviewDescription": "DeifiedのPC・キーボード・コントローラー対応を確認し、自分に合った方法でタクティカルローグライトをプレイしましょう。"
+  },
+  "modes": {
+    "overviewTitle": "Deified ゲームモード",
+    "overviewDescription": "Deifiedのローグライク、タクティカル、ターン制タクティクス、ダンジョンクロウラー、高難度ランモードを探索しましょう。"
+  },
+  "community": {
+    "overviewTitle": "Deified コミュニティ",
+    "overviewDescription": "Deifiedのゲームプレイクリップと、Reddit・Steam・YouTubeのコミュニティを1か所で見られます。"
+  },
+  "codes": {
+    "overviewTitle": "Deified コード",
+    "overviewDescription": "最新ビルド向けに更新された、すべてのDeifiedコード、引き換え手順、報酬の詳細を掲載。"
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新済み",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnSteam": "Steamでプレイ",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "お困りですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "ガイドはまだありません。また後でチェックしてください！"
+  },
+  "footer": {
+    "aboutTitle": "Deified Wiki",
+    "about": "Deified Wikiは、レリック、ビルド、ボス、スキル、戦闘戦略、実績、そして新規・ベテランの両プレイヤーに必要なゲーム知識を扱う、ファン制作の独立系ガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的事項",
+    "copyright": "2026 Deified Wiki. Goblinz PublishingおよびUnexpectedとは無関係です。",
+    "description": "Steamのダークファンタジーなターン制タクティカルローグライト。レリック、ビルド、ボス、ガイド。",
+    "playGame": "SteamでDeifiedをプレイ",
+    "officialDiscord": "Steamコミュニティのディスカッション",
+    "officialYoutube": "Steamコミュニティのガイド",
+    "vvBuilder": "Deified Steamガイド",
+    "beginnerGuide": "初心者ガイド",
+    "raceGuides": "レリックガイド",
+    "bossGuides": "ボスガイド",
+    "buildGuide": "ビルドガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}

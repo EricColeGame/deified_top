@@ -1,1 +1,517 @@
-{}
+{
+  "site": {
+    "name": "Deified Wiki",
+    "shortName": "Deified",
+    "tagline": "Builds, reliques, boss et guides",
+    "description": "Explorez le Deified Wiki pour des builds, reliques, boss, compétences, stratégies de combat, succès et guides pour débutants de ce roguelite tactique dark fantasy.",
+    "legalNotice": "Wiki de fans non officiel. Sans affiliation avec Goblinz Publishing ni Unexpected. Fait par des joueurs, pour des joueurs."
+  },
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "toggleTheme": "Changer de thème",
+    "guide": "Guide",
+    "mechanics": "Mécaniques",
+    "combat": "Combat",
+    "progression": "Progression",
+    "controls": "Commandes",
+    "modes": "Modes",
+    "community": "Communauté",
+    "codes": "Codes"
+  },
+  "home": {
+    "meta": {
+      "title": "Deified Wiki – builds, reliques, boss et guides",
+      "description": "Explorez le Deified Wiki pour des builds, reliques, boss, compétences, stratégies de combat, succès et guides pour débutants de ce roguelite tactique dark fantasy."
+    },
+    "hero": {
+      "eyebrow": "Roguelite tactique au tour par tour",
+      "title": "Deified Wiki",
+      "description": "Deified est un roguelite tactique dark fantasy au tour par tour où vous collectionnez et restaurez des reliques maudites, gérez de puissants emplacements, créez des synergies et affrontez sept boss redoutables.",
+      "stats": [
+        "460+ avis de joueurs",
+        "44 succès",
+        "7 boss",
+        "Sortie le 21 sept. 2026"
+      ],
+      "primaryCta": "Guide du débutant",
+      "secondaryCta": "Base de données des reliques",
+      "tertiaryCta": "Jouer sur Steam",
+      "videoLabel": "Vidéo de gameplay"
+    },
+    "updates": {
+      "title": "Dernières mises à jour",
+      "browse": "Parcourir tous les guides",
+      "viewAll": "Tout voir"
+    },
+    "start": {
+      "eyebrow": "Commencez ici",
+      "title": "Votre aventure Deified",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guide du débutant",
+          "description": "Apprenez la boucle au tour par tour, les bases du combat et les priorités d'amélioration pour que vos premières parties avancent."
+        },
+        {
+          "number": "2",
+          "title": "Restauration des reliques",
+          "description": "Comprenez l'harmonisation, la consécration, l'ascension et le rituel de déification qui transforme une relique en objet mythique décisif."
+        },
+        {
+          "number": "3",
+          "title": "Meilleurs builds",
+          "description": "Choisissez un archétype de build avant l'équipement et les statistiques, du fragile Frappeur Ascendant à la Divinité Rempart adaptée au solo."
+        },
+        {
+          "number": "4",
+          "title": "Tous les codes",
+          "description": "Récupérez les derniers codes Deified pour de la monnaie, des bonus et des cosmétiques gratuits, et apprenez à les échanger avant expiration."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Pages populaires",
+      "title": "Tendances actuelles",
+      "quickLinks": [
+        "Guide du débutant",
+        "Tiers des reliques",
+        "Archétypes de build",
+        "Phases des boss"
+      ],
+      "cards": [
+        {
+          "badge": "Débutant",
+          "title": "Guide du débutant Deified",
+          "description": "Commandes, habitudes de combat, priorités d'amélioration et erreurs qui bloquent les nouveaux joueurs.",
+          "href": "/guide/deified-beginner-guide"
+        },
+        {
+          "badge": "Mis à jour",
+          "title": "Tous les codes Deified",
+          "description": "Codes Deified fonctionnels avec récompenses, notes d'expiration et instructions d'échange étape par étape.",
+          "href": "/codes/deified-codes"
+        },
+        {
+          "badge": "Essentiel",
+          "title": "Les reliques Deified expliquées",
+          "description": "Étapes des reliques, coûts en matériaux, risque d'échec et tiers de priorité de déification de S à C.",
+          "href": "/mechanics/deified-relics"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Archétypes de build Deified",
+          "description": "Cinq formes de build comparées avec priorités de statistiques et conseils de paliers.",
+          "href": "/mechanics/deified-builds"
+        },
+        {
+          "badge": "Boss",
+          "title": "Guide des combats de boss Deified",
+          "description": "La structure en trois actes, la lecture des télégraphes et les tableaux de punition des affrontements divins.",
+          "href": "/combat/deified-boss-fights"
+        },
+        {
+          "badge": "Compétences",
+          "title": "Création de compétences Deified",
+          "description": "Planifiez la dépense des points par phases et arrêtez-vous aux paliers avant que le rendement ne baisse.",
+          "href": "/mechanics/deified-skill-building"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Progression des classes Deified",
+          "description": "Étapes de classe de base, avancée, éveillée et déifiée avec leurs conditions de déblocage.",
+          "href": "/progression/deified-classes"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Modes roguelike exigeants",
+          "description": "Comment chaque modificateur de difficulté retire un avantage et quels builds survivent aux paliers les plus durs.",
+          "href": "/modes/deified-challenging-roguelike"
+        },
+        {
+          "badge": "Commandes",
+          "title": "Commandes PC de Deified",
+          "description": "Assignations par défaut, étapes de remappage et réglages de touches pour des réactions plus rapides.",
+          "href": "/controls/deified-pc-controls"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Qu'est-ce que Deified ?",
+      "paragraphs": [
+        "Deified est un roguelite tactique dark fantasy au tour par tour développé par Unexpected et édité par Goblinz Publishing. Vous collectionnez des reliques maudites, les restaurez via un rituel de déification en plusieurs étapes, gérez de puissants emplacements et créez des synergies qui vous portent de partie en partie.",
+        "Chaque partie mêle combat tactique au tour par tour et progression permanente entre les parties. Vous affrontez sept boss redoutables, chacun portant une malédiction unique capable de perturber une stratégie autrement fiable, tandis que les arbres de compétences et l'ascension de classe rouvrent votre courbe de progression dès qu'un kit de base plafonne. Deified est entré en accès anticipé le 27 avril 2026 et a atteint la version 1.0 le 21 septembre 2026."
+      ],
+      "stats": [
+        {
+          "label": "Développeur",
+          "value": "Unexpected"
+        },
+        {
+          "label": "Éditeur",
+          "value": "Goblinz Publishing"
+        },
+        {
+          "label": "Genre",
+          "value": "Roguelite tactique au tour par tour"
+        },
+        {
+          "label": "Plateforme",
+          "value": "Steam / PC"
+        },
+        {
+          "label": "Date de sortie",
+          "value": "21 sept. 2026"
+        },
+        {
+          "label": "Boss",
+          "value": "7"
+        },
+        {
+          "label": "Succès",
+          "value": "44"
+        },
+        {
+          "label": "Avis de joueurs",
+          "value": "460+"
+        }
+      ],
+      "cta": "Explorer tous les guides"
+    },
+    "explore": {
+      "title": "Explorez le Deified Wiki",
+      "description": "Maîtrisez Deified avec des guides de progression, des analyses de reliques et de builds, des stratégies de boss, des codes actifs et des listes de succès pour ce roguelite tactique dark fantasy.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guide du débutant Deified",
+          "description": "Apprenez la boucle roguelite au tour par tour, la restauration des reliques, la gestion des emplacements, les règles de combat et comment aborder vos premières parties sans connaissances préalables.",
+          "href": "/guide/deified-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Apprenez chaque commande et testez chaque action avant votre premier vrai combat."
+            },
+            {
+              "label": "2",
+              "detail": "Économisez votre principale ressource de progression au lieu de la dépenser en améliorations spéculatives."
+            },
+            {
+              "label": "3",
+              "detail": "Financez d'abord votre base de survie pour vivre assez longtemps et apprendre le timing des ennemis."
+            },
+            {
+              "label": "4",
+              "detail": "Étudiez un boss par session et répétez un seul affrontement au lieu de disperser vos tentatives."
+            },
+            {
+              "label": "5",
+              "detail": "Revisitez les zones terminées, qui deviennent des sources de ressources efficaces une fois votre build stabilisé."
+            },
+            {
+              "label": "6",
+              "detail": "Réévaluez votre build après chaque boss avant de pousser plus loin dans la partie."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Reliques Deified",
+          "description": "Couvre les types de reliques, fragments, restauration, bonus, inconvénients et combinaisons de synergies qui décident si un build passe le contenu de fin de jeu.",
+          "href": "/mechanics/deified-relics",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Reliques offrant une toute nouvelle mécanique ou ressource — déifiez-les en premier."
+            },
+            {
+              "label": "A",
+              "detail": "Reliques supprimant un plafond dur ou un temps de recharge — déifiez dès que les matériaux le permettent."
+            },
+            {
+              "label": "B",
+              "detail": "Gros bonus de statistiques fixes ou en pourcentage — déifiez après avoir financé S et A."
+            },
+            {
+              "label": "C",
+              "detail": "Effets utilitaires ou de confort mineurs — ignorez-les sauf si vous avez des matériaux en surplus."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Builds Deified",
+          "description": "Organisez des builds efficaces autour des synergies de reliques, des choix d'emplacements et de la progression des compétences, avec des combinaisons recommandées plutôt qu'un tier list de personnages non étayé.",
+          "href": "/mechanics/deified-builds",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Frappeur",
+              "detail": "Le Frappeur Ascendant empile la mise à l'échelle offensive pour de gros dégâts sur cible unique."
+            },
+            {
+              "label": "Rempart",
+              "detail": "La Divinité Rempart investit dans la vie et la mitigation pour survivre en solo au contenu d'ascension."
+            },
+            {
+              "label": "Oracle",
+              "detail": "L'Oracle durable maintient le groupe en vie grâce à la puissance de soutien et à la réduction des temps de recharge."
+            },
+            {
+              "label": "Hybride",
+              "detail": "L'Ascendant hybride répartit offense et défense pour des parties flexibles sans respect."
+            },
+            {
+              "label": "Burst",
+              "detail": "Le Bourreau empile les statistiques de burst et de critique pour éliminer les cibles à faible vie."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Boss Deified",
+          "description": "Une référence pratique pour les principaux boss du jeu, incluant leurs malédictions uniques et les considérations de combat qui décident d'une victoire.",
+          "href": "/combat/deified-boss-fights",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Acte 1",
+              "detail": "Phase mortelle — combos propres ; apprenez les fenêtres de punition et ne prenez aucun risque."
+            },
+            {
+              "label": "Acte 2",
+              "detail": "Phase d'ascension — une nouvelle forme et des changements d'arène imposent un nouveau tableau de timing."
+            },
+            {
+              "label": "Acte 3",
+              "detail": "Phase de désespoir — timings compressés et rage ; ne punissez que les ouvertures garanties."
+            },
+            {
+              "label": "Repérage",
+              "detail": "Consacrez une tentative à observer au lieu de gagner et construisez un tableau de punition."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Arbres de compétences Deified",
+          "description": "Explique la progression des arbres de compétences, les options déblocables et comment les déblocages permanents changent les choix disponibles lors des parties futures.",
+          "href": "/mechanics/deified-skill-building",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Commencez par une description de rôle : décidez ce que votre build doit faire avant de dépenser un point."
+            },
+            {
+              "label": "2",
+              "detail": "Investissez dans les couches de survie et de régularité avant les pièces de synergie coûteuses."
+            },
+            {
+              "label": "3",
+              "detail": "Répartissez les points par phases et arrêtez-vous aux plafonds souples au lieu de courir après des rendements décroissants."
+            },
+            {
+              "label": "4",
+              "detail": "Testez chaque nouveau nœud dans du contenu à faible risque avant d'engager un respect complet."
+            },
+            {
+              "label": "5",
+              "detail": "Revisitez votre arbre après chaque boss, car les déblocages tardifs changent les chemins rentables."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Malédictions Deified",
+          "description": "Explique le système de malédictions et comment celles des boss peuvent perturber des stratégies autrement fiables, avec des conseils de préparation pour reliques, emplacements et combat.",
+          "href": "/mechanics/deified-dark-relic-builds",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Repérage",
+              "detail": "Les malédictions de boss punissent les builds gourmands, repérez donc chaque affrontement avant de vous engager."
+            },
+            {
+              "label": "Préparation",
+              "detail": "Gardez des reliques de soin et de défense pour qu'une malédiction ne supprime pas votre seule échappatoire."
+            },
+            {
+              "label": "Reliques",
+              "detail": "Certaines malédictions désactivent ou inversent les effets de reliques, gardez donc une synergie de secours prête."
+            },
+            {
+              "label": "Emplacements",
+              "detail": "La pression des malédictions rend les choix d'emplacements importants — protégez la relique qui porte votre partie."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Défis Deified",
+          "description": "Couvre les défis supplémentaires, les modificateurs de partie et le contenu avancé introduits par la progression et les mises à jour, destinés aux joueurs voulant plus qu'une partie standard.",
+          "href": "/modes/deified-challenging-roguelike",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Modes",
+              "detail": "Chaque mode de difficulté retire un avantage — lisez le contrat avant de commencer."
+            },
+            {
+              "label": "Mods",
+              "detail": "Les modificateurs de partie font évoluer ennemis et récompenses ensemble, misez donc sur la régularité."
+            },
+            {
+              "label": "Paliers",
+              "detail": "Les paliers plus durs compressent les fenêtres de réaction ; les dégâts réguliers battent le burst fragile."
+            },
+            {
+              "label": "Objectifs",
+              "detail": "Les objectifs optionnels vous poussent au-delà des parties standard avec des récompenses uniques."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Succès Deified",
+          "description": "Liste les succès Steam du jeu et les organise par victoires de boss, jalons de progression, exploration et objectifs spéciaux pour les joueurs axés sur la complétion.",
+          "href": "/guide/deified-full-run",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Première ascension",
+              "detail": "Accomplissez votre premier rituel de déification.",
+              "badge": "Jalon"
+            },
+            {
+              "label": "Sept malédictions",
+              "detail": "Vainquez les sept boss et leurs malédictions uniques.",
+              "badge": "Boss"
+            },
+            {
+              "label": "Collectionneur de reliques",
+              "detail": "Restaurez un ensemble complet de reliques dans chaque emplacement.",
+              "badge": "Collection"
+            },
+            {
+              "label": "Architecte de compétences",
+              "detail": "Débloquez le dernier palier d'un arbre de compétences.",
+              "badge": "Progression"
+            },
+            {
+              "label": "Sans faute",
+              "detail": "Terminez une partie complète sans une seule défaite.",
+              "badge": "Défi"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Réponses rapides aux questions les plus courantes sur Deified.",
+      "items": [
+        {
+          "question": "Qu'est-ce que Deified ?",
+          "answer": "Deified est un roguelite tactique dark fantasy au tour par tour développé par Unexpected et édité par Goblinz Publishing. Vous collectionnez des reliques maudites, les restaurez par déification, gérez de puissants emplacements et affrontez sept boss au fil de parties rejouables."
+        },
+        {
+          "question": "Deified est-il accessible aux débutants ?",
+          "answer": "Deified a un démarrage exigeant, mais le guide du débutant Deified vous accompagne à travers les commandes, les bases du combat et les priorités d'amélioration pour que vos premières parties progressent quand même."
+        },
+        {
+          "question": "Que sont les reliques Deified et comment les déifier ?",
+          "answer": "Les reliques Deified sont des artefacts équipables dotés de bonus passifs. Vous harmonisez, consacrez et faites monter une relique avant que l'étape finale de déification n'accorde un effet mythique unique, et le catalyseur de cette étape est généralement le vrai goulot d'étranglement."
+        },
+        {
+          "question": "Avec quel build Deified commencer ?",
+          "answer": "Commencez par une Divinité Rempart axée sur la survie ou un Ascendant hybride flexible, puis passez au Frappeur Ascendant une fois les schémas des boss connus. Deified récompense la régularité plutôt que le burst fragile au début."
+        },
+        {
+          "question": "Y a-t-il des codes Deified ?",
+          "answer": "Oui. Les codes Deified sont des chaînes promotionnelles limitées dans le temps qui accordent monnaie, bonus et cosmétiques gratuits. Échangez-les le jour où vous les trouvez, car la plupart expirent sans prévenir."
+        },
+        {
+          "question": "Combien de boss et de succès Deified compte-t-il ?",
+          "answer": "Deified propose sept boss, chacun avec une malédiction unique, et 44 succès Steam couvrant les victoires de boss, les jalons de progression, l'exploration et les objectifs spéciaux."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêt à maîtriser Deified ?",
+      "description": "De votre première restauration de relique aux combats de boss de fin de jeu, notre wiki communautaire vous couvre avec des guides Deified gratuits et à jour.",
+      "primary": "Lire le guide du débutant",
+      "secondary": "Jouer sur Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guide Deified",
+    "overviewDescription": "Démarrez fort dans Deified avec des tutoriels pour débutants, des conseils de première partie, des avis et une feuille de route complète pour ce roguelite tactique dark fantasy."
+  },
+  "mechanics": {
+    "overviewTitle": "Mécaniques Deified",
+    "overviewDescription": "Découvrez comment s'articulent les reliques, synergies, builds, création de compétences et exploration de donjons de Deified."
+  },
+  "combat": {
+    "overviewTitle": "Combat Deified",
+    "overviewDescription": "Maîtrisez le combat tactique au tour par tour de Deified avec les combats de boss et les stratégies de build mêlée, mage et canon de verre."
+  },
+  "progression": {
+    "overviewTitle": "Progression Deified",
+    "overviewDescription": "Suivez les classes, voies de mage et d'archer, builds de reliques et détails de sortie complète de Deified au fil de votre progression."
+  },
+  "controls": {
+    "overviewTitle": "Commandes Deified",
+    "overviewDescription": "Vérifiez la prise en charge PC, clavier et manette de Deified pour jouer à ce roguelite tactique à votre façon."
+  },
+  "modes": {
+    "overviewTitle": "Modes de jeu Deified",
+    "overviewDescription": "Explorez les modes roguelite, tactique, tactique au tour par tour, dungeon crawler et parties exigeantes de Deified."
+  },
+  "community": {
+    "overviewTitle": "Communauté Deified",
+    "overviewDescription": "Parcourez les clips de gameplay Deified ainsi que les communautés Reddit, Steam et YouTube en un seul endroit."
+  },
+  "codes": {
+    "overviewTitle": "Codes Deified",
+    "overviewDescription": "Trouvez tous les codes Deified, les étapes d'échange et les détails des récompenses mis à jour pour la dernière version."
+  },
+  "shared": {
+    "wikiNavigation": "Navigation du wiki",
+    "activeCodes": "Codes actifs",
+    "updated": "Mis à jour",
+    "viewAllCodes": "Voir tous les codes",
+    "playOnSteam": "Jouer sur Steam",
+    "inThisSection": "Dans cette section",
+    "tableOfContents": "Table des matières",
+    "nextSteps": "Étapes suivantes",
+    "needHelp": "Besoin d'aide ?",
+    "relatedReading": "Lectures associées",
+    "relatedGuides": "Guides associés",
+    "readMore": "Lire la suite",
+    "officialMedia": "Médias officiels",
+    "home": "Accueil",
+    "noGuidesAvailable": "Aucun guide disponible pour l'instant. Revenez bientôt !"
+  },
+  "footer": {
+    "aboutTitle": "Deified Wiki",
+    "about": "Deified Wiki est un hub de guides indépendant créé par des fans, couvrant reliques, builds, boss, compétences, stratégies de combat, succès et connaissances essentielles du jeu pour les nouveaux comme les vétérans.",
+    "quickLinks": "Liens rapides",
+    "guides": "Guides",
+    "legal": "Mentions légales",
+    "copyright": "2026 Deified Wiki. Sans affiliation avec Goblinz Publishing ni Unexpected.",
+    "description": "Roguelite tactique dark fantasy au tour par tour sur Steam. Reliques, builds, boss et guides.",
+    "playGame": "Jouer à Deified sur Steam",
+    "officialDiscord": "Discussions de la communauté Steam",
+    "officialYoutube": "Guides de la communauté Steam",
+    "vvBuilder": "Guides Steam Deified",
+    "beginnerGuide": "Guide du débutant",
+    "raceGuides": "Guides des reliques",
+    "bossGuides": "Guides des boss",
+    "buildGuide": "Guides des builds",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation"
+  }
+}

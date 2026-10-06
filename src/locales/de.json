@@ -1,1 +1,517 @@
-{}
+{
+  "site": {
+    "name": "Deified Wiki",
+    "shortName": "Deified",
+    "tagline": "Builds, Relikte, Bosse & Guides",
+    "description": "Entdecke das Deified Wiki mit Builds, Relikten, Bossen, Fähigkeiten, Kampfstrategien, Erfolgen und Einsteigerleitfäden für dieses düstere taktische Fantasy-Roguelite.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Nicht mit Goblinz Publishing oder Unexpected verbunden. Von Spielern für Spieler."
+  },
+  "nav": {
+    "home": "Start",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "guide": "Leitfaden",
+    "mechanics": "Mechaniken",
+    "combat": "Kampf",
+    "progression": "Fortschritt",
+    "controls": "Steuerung",
+    "modes": "Modi",
+    "community": "Community",
+    "codes": "Codes"
+  },
+  "home": {
+    "meta": {
+      "title": "Deified Wiki – Builds, Relikte, Bosse & Guides",
+      "description": "Entdecke das Deified Wiki mit Builds, Relikten, Bossen, Fähigkeiten, Kampfstrategien, Erfolgen und Einsteigerleitfäden für dieses düstere taktische Fantasy-Roguelite."
+    },
+    "hero": {
+      "eyebrow": "Rundenbasiertes taktisches Roguelite",
+      "title": "Deified Wiki",
+      "description": "Deified ist ein düsteres rundenbasiertes taktisches Roguelite, in dem du verfluchte Relikte sammelst und wiederherstellst, mächtige Slots verwaltest, Synergien aufbaust und gegen sieben gewaltige Bosse kämpfst.",
+      "stats": [
+        "460+ Nutzerrezensionen",
+        "44 Erfolge",
+        "7 Bosse",
+        "Veröffentlichung 21. Sep. 2026"
+      ],
+      "primaryCta": "Einsteigerleitfaden",
+      "secondaryCta": "Relikt-Datenbank",
+      "tertiaryCta": "Auf Steam spielen",
+      "videoLabel": "Gameplay-Video"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Leitfäden durchsuchen",
+      "viewAll": "Alle ansehen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Deified-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteigerleitfaden",
+          "description": "Lerne die rundenbasierte Kernschleife, Kampfgrundlagen und frühe Upgrade-Prioritäten, damit deine ersten Runs vorankommen."
+        },
+        {
+          "number": "2",
+          "title": "Relikt-Wiederherstellung",
+          "description": "Verstehe Abstimmung, Weihe, Aufstieg und das Vergöttlichungsritual, das ein Relikt in einen buildprägenden mythischen Gegenstand verwandelt."
+        },
+        {
+          "number": "3",
+          "title": "Beste Builds",
+          "description": "Wähle zuerst einen Build-Archetyp vor Ausrüstung und Werten – vom zerbrechlichen Aufgestiegenen Striker bis zur solo-freundlichen Bollwerk-Gottheit."
+        },
+        {
+          "number": "4",
+          "title": "Alle Codes",
+          "description": "Sichere dir die neuesten Deified-Codes für kostenlose Währung, Boosts und Kosmetik und erfahre, wie du sie vor Ablauf einlöst."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Aktuell im Trend",
+      "quickLinks": [
+        "Einsteigerleitfaden",
+        "Relikt-Stufen",
+        "Build-Archetypen",
+        "Boss-Phasen"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Deified Einsteigerleitfaden",
+          "description": "Steuerung, Kampfgewohnheiten, Upgrade-Prioritäten und die Fehler, die neue Spieler ausbremsen.",
+          "href": "/guide/deified-beginner-guide"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Alle Deified-Codes",
+          "description": "Funktionierende Deified-Codes mit Belohnungen, Ablaufhinweisen und Schritt-für-Schritt-Einlöseanleitung.",
+          "href": "/codes/deified-codes"
+        },
+        {
+          "badge": "Kern",
+          "title": "Deified Relikte erklärt",
+          "description": "Reliktstufen, Materialkosten, Fehlerrisiko und die Vergöttlichungs-Prioritätsstufen von S bis C.",
+          "href": "/mechanics/deified-relics"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Deified Build-Archetypen",
+          "description": "Fünf Build-Formen im Vergleich mit Werteprioritäten und Breakpoint-Tipps.",
+          "href": "/mechanics/deified-builds"
+        },
+        {
+          "badge": "Bosse",
+          "title": "Deified Bosskampf-Leitfaden",
+          "description": "Die Drei-Akt-Struktur, das Lesen von Telegrafen und Bestrafungs-Charts für göttliche Begegnungen.",
+          "href": "/combat/deified-boss-fights"
+        },
+        {
+          "badge": "Fähigkeiten",
+          "title": "Deified Skill-Aufbau",
+          "description": "Plane die Punktevergabe in Phasen und stoppe an Softcaps, bevor der Ertrag sinkt.",
+          "href": "/mechanics/deified-skill-building"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Deified Klassen-Fortschritt",
+          "description": "Basis-, fortgeschrittene, erwachte und vergöttlichte Klassenstufen mit ihren Freischaltbedingungen.",
+          "href": "/progression/deified-classes"
+        },
+        {
+          "badge": "Neu",
+          "title": "Herausfordernde Roguelike-Modi",
+          "description": "Wie jeder Schwierigkeitsmodifikator einen Vorteil entfernt und welche Builds die härtesten Stufen überleben.",
+          "href": "/modes/deified-challenging-roguelike"
+        },
+        {
+          "badge": "Steuerung",
+          "title": "Deified PC-Steuerung",
+          "description": "Standardbelegung, Neubelegungsschritte und Tastenbelegungs-Tweaks für schnellere Reaktionen.",
+          "href": "/controls/deified-pc-controls"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Deified?",
+      "paragraphs": [
+        "Deified ist ein düsteres rundenbasiertes taktisches Roguelite, entwickelt von Unexpected und veröffentlicht von Goblinz Publishing. Du sammelst verfluchte Relikte, stellst sie in einem mehrstufigen Vergöttlichungsritual wieder her, verwaltest mächtige Slots und baust Synergien auf, die dich Run für Run tragen.",
+        "Jeder Run verbindet taktischen rundenbasierten Kampf mit dauerhaftem Fortschritt zwischen den Runs. Du triffst auf sieben gewaltige Bosse, jeder mit einem einzigartigen Fluch, der eine sonst verlässliche Strategie stören kann, während Skillbäume und Klassenaufstieg deine Wachstumskurve wieder öffnen, sobald ein Basis-Kit stagniert. Deified startete am 27. April 2026 in den Early Access und erreichte am 21. September 2026 Version 1.0."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Unexpected"
+        },
+        {
+          "label": "Publisher",
+          "value": "Goblinz Publishing"
+        },
+        {
+          "label": "Genre",
+          "value": "Rundenbasiertes taktisches Roguelite"
+        },
+        {
+          "label": "Plattform",
+          "value": "Steam / PC"
+        },
+        {
+          "label": "Veröffentlichung",
+          "value": "21. Sep. 2026"
+        },
+        {
+          "label": "Bosse",
+          "value": "7"
+        },
+        {
+          "label": "Erfolge",
+          "value": "44"
+        },
+        {
+          "label": "Nutzerrezensionen",
+          "value": "460+"
+        }
+      ],
+      "cta": "Alle Leitfäden entdecken"
+    },
+    "explore": {
+      "title": "Deified Wiki entdecken",
+      "description": "Meistere Deified mit Fortschrittsleitfäden, Relikt- und Build-Analysen, Boss-Strategien, aktiven Codes und Erfolgs-Checklisten für dieses düstere taktische Fantasy-Roguelite.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Deified Einsteigerleitfaden",
+          "description": "Lerne die rundenbasierte Roguelite-Kernschleife, Relikt-Wiederherstellung, Slot-Verwaltung, Kampfregeln und den Einstieg in deine ersten Runs ohne Vorwissen.",
+          "href": "/guide/deified-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Lerne jede Steuerung und teste jede Aktion vor deinem ersten echten Kampf."
+            },
+            {
+              "label": "2",
+              "detail": "Spare deine wichtigste Fortschrittsressource, statt sie für spekulative Upgrades auszugeben."
+            },
+            {
+              "label": "3",
+              "detail": "Finanziere zuerst deine Überlebensbasis, damit du lange genug lebst, um das Timing der Gegner zu lernen."
+            },
+            {
+              "label": "4",
+              "detail": "Studiere pro Sitzung einen Boss und wiederhole eine einzelne Begegnung, statt Versuche zu verstreuen."
+            },
+            {
+              "label": "5",
+              "detail": "Suche bereits geräumte Gebiete erneut auf; sie werden zu effizienten Ressourcenquellen, sobald dein Build stabil ist."
+            },
+            {
+              "label": "6",
+              "detail": "Überdenke deinen Build nach jedem Boss, bevor du tiefer in den Run vordringst."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Deified Relikte",
+          "description": "Behandelt Reliktarten, Fragmente, Wiederherstellung, Boni, Nachteile und Synergiekombinationen, die entscheiden, ob ein Build Endgame-Inhalte schafft.",
+          "href": "/mechanics/deified-relics",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Relikte, die eine völlig neue Mechanik oder Ressource gewähren – vergöttliche diese zuerst."
+            },
+            {
+              "label": "A",
+              "detail": "Relikte, die eine harte Obergrenze oder Abklingzeit aufheben – vergöttliche sie, sobald Materialien es erlauben."
+            },
+            {
+              "label": "B",
+              "detail": "Große flache oder prozentuale Werteboosts – vergöttliche sie, nachdem S und A finanziert sind."
+            },
+            {
+              "label": "C",
+              "detail": "Geringe Nutz- oder Komforteffekte – überspringe sie, außer du hast überschüssige Materialien."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Deified Builds",
+          "description": "Organisiere effektive Builds rund um Reliktsynergien, Slot-Wahlen und Skill-Fortschritt, mit empfohlenen Kombinationen statt einer unbegründeten Charakter-Tier-Liste.",
+          "href": "/mechanics/deified-builds",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Striker",
+              "detail": "Aufgestiegener Striker stapelt offensive Skalierung für hohen Einzelziel-Boss-Schaden."
+            },
+            {
+              "label": "Bollwerk",
+              "detail": "Bollwerk-Gottheit investiert in Leben und Schadensminderung, um Aufstiegsinhalte solo zu überleben."
+            },
+            {
+              "label": "Orakel",
+              "detail": "Anhaltendes Orakel hält Gruppen mit Unterstützungskraft und Abklingzeitreduktion am Leben."
+            },
+            {
+              "label": "Hybrid",
+              "detail": "Hybrider Aufgestiegener teilt Offensive und Defensive für flexible Runs ohne Respec."
+            },
+            {
+              "label": "Burst",
+              "detail": "Henker stapelt Burst- und Krit-Werte, um Ziele mit wenig Leben auszuschalten."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Deified Bosse",
+          "description": "Eine praktische Referenz zu den wichtigsten Bossen des Spiels, inklusive ihrer einzigartigen Flüche und der Kampfüberlegungen, die einen Sieg entscheiden.",
+          "href": "/combat/deified-boss-fights",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Akt 1",
+              "detail": "Sterbliche Phase – saubere Kombos; lerne die Bestrafungsfenster und gehe kein Risiko ein."
+            },
+            {
+              "label": "Akt 2",
+              "detail": "Aufstiegsphase – eine neue Form und Arenaveränderungen erzwingen ein neues Timing-Chart."
+            },
+            {
+              "label": "Akt 3",
+              "detail": "Verzweiflungsphase – verdichtete Timings und Wut; bestrafe nur garantierte Öffnungen."
+            },
+            {
+              "label": "Ausspähen",
+              "detail": "Verwende einen Versuch zum Beobachten statt zum Siegen und erstelle ein Bestrafungs-Chart."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Deified Skillbäume",
+          "description": "Erklärt den Fortschritt im Skillbaum, freischaltbare Optionen und wie dauerhafte Freischaltungen die Auswahl in künftigen Runs verändern.",
+          "href": "/mechanics/deified-skill-building",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Beginne mit einer Aufgabenbeschreibung: Entscheide, was dein Build leisten muss, bevor du einen Punkt ausgibst."
+            },
+            {
+              "label": "2",
+              "detail": "Investiere in Überlebens- und Konsistenzschichten vor teuren Synergieteilen."
+            },
+            {
+              "label": "3",
+              "detail": "Teile Punkte in Phasen ein und stoppe an Softcaps, statt sinkendem Ertrag nachzujagen."
+            },
+            {
+              "label": "4",
+              "detail": "Teste jeden neuen Knoten in risikoarmem Inhalt, bevor du dich zu einem vollständigen Respec verpflichtest."
+            },
+            {
+              "label": "5",
+              "detail": "Überprüfe deinen Baum nach jedem Boss, da späte Freischaltungen ändern, welche Pfade sich lohnen."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Deified Flüche",
+          "description": "Erklärt das Fluchsystem und wie Bossflüche sonst verlässliche Strategien stören können, mit praktischen Vorbereitungstipps für Relikte, Slots und Kampf.",
+          "href": "/mechanics/deified-dark-relic-builds",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Ausspähen",
+              "detail": "Bossflüche bestrafen gierige Builds, also spähe jede Begegnung aus, bevor du dich festlegst."
+            },
+            {
+              "label": "Vorbereitung",
+              "detail": "Spare Heilungs- und Verteidigungsrelikte, damit ein Fluch nicht deine einzige Rettung entfernt."
+            },
+            {
+              "label": "Relikte",
+              "detail": "Manche Flüche deaktivieren oder invertieren Relikteffekte, halte also eine Backup-Synergie bereit."
+            },
+            {
+              "label": "Slots",
+              "detail": "Fluchdruck macht Slot-Wahlen wichtig – schütze das Relikt, das deinen Run trägt."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Deified Herausforderungen",
+          "description": "Behandelt zusätzliche Herausforderungen, Run-Modifikatoren und fortgeschrittene Inhalte aus Fortschritt und Updates für Spieler, die mehr als einen Standard-Run wollen.",
+          "href": "/modes/deified-challenging-roguelike",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Modi",
+              "detail": "Jeder Schwierigkeitsmodus entfernt einen Vorteil – lies den Vertrag, bevor du startest."
+            },
+            {
+              "label": "Mods",
+              "detail": "Run-Modifikatoren skalieren Gegner und Belohnungen gemeinsam, baue also auf Konsistenz."
+            },
+            {
+              "label": "Stufen",
+              "detail": "Härtere Stufen verkürzen Reaktionsfenster; stetiger Schaden schlägt zerbrechlichen Burst."
+            },
+            {
+              "label": "Ziele",
+              "detail": "Optionale Ziele treiben dich über Standard-Runs hinaus, mit einzigartigen Belohnungen."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Deified Erfolge",
+          "description": "Listet die Steam-Erfolge des Spiels und ordnet sie nach Bossbesiegungen, Fortschrittsmeilensteinen, Erkundung und speziellen Zielen für Vervollständigungs-Spieler.",
+          "href": "/guide/deified-full-run",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Erster Aufstieg",
+              "detail": "Schließe dein erstes Vergöttlichungsritual ab.",
+              "badge": "Meilenstein"
+            },
+            {
+              "label": "Sieben Flüche",
+              "detail": "Besiege alle sieben Bosse und ihre einzigartigen Flüche.",
+              "badge": "Boss"
+            },
+            {
+              "label": "Reliktsammler",
+              "detail": "Stelle einen vollständigen Satz Relikte in jedem Slot wieder her.",
+              "badge": "Sammlung"
+            },
+            {
+              "label": "Skill-Architekt",
+              "detail": "Schalte die letzte Stufe eines Skillbaums frei.",
+              "badge": "Fortschritt"
+            },
+            {
+              "label": "Perfekter Durchlauf",
+              "detail": "Beende einen vollständigen Run ohne eine einzige Niederlage.",
+              "badge": "Herausforderung"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Deified.",
+      "items": [
+        {
+          "question": "Was ist Deified?",
+          "answer": "Deified ist ein düsteres rundenbasiertes taktisches Roguelite, entwickelt von Unexpected und veröffentlicht von Goblinz Publishing. Du sammelst verfluchte Relikte, stellst sie durch Vergöttlichung wieder her, verwaltest mächtige Slots und kämpfst in wiederholbaren Runs gegen sieben Bosse."
+        },
+        {
+          "question": "Ist Deified einsteigerfreundlich?",
+          "answer": "Deified hat einen steilen Einstieg, doch der Deified Einsteigerleitfaden führt dich durch Steuerung, Kampfgrundlagen und frühe Upgrade-Prioritäten, damit deine ersten Runs trotzdem vorankommen."
+        },
+        {
+          "question": "Was sind Deified-Relikte und wie vergöttlicht man sie?",
+          "answer": "Deified-Relikte sind ausrüstbare Artefakte mit passiven Boni. Du stimmst ein Relikt ab, weihst es, lässt es aufsteigen, bevor der letzte Vergöttlichungsschritt einen einzigartigen mythischen Effekt gewährt – und der Katalysator für diesen Schritt ist meist der eigentliche Engpass."
+        },
+        {
+          "question": "Mit welchem Deified-Build sollte ich beginnen?",
+          "answer": "Beginne mit einer überlebensorientierten Bollwerk-Gottheit oder einem flexiblen Hybriden Aufgestiegenen und wechsle zum Aufgestiegenen Striker, sobald du die Bossmuster kennst. Deified belohnt früh Beständigkeit statt zerbrechlichem Burst."
+        },
+        {
+          "question": "Gibt es Deified-Codes?",
+          "answer": "Ja. Deified-Codes sind zeitlich begrenzte Aktionscodes, die kostenlose Währung, Boosts und Kosmetik gewähren. Löse sie am Tag ihres Fundes ein, da die meisten ohne Vorwarnung ablaufen."
+        },
+        {
+          "question": "Wie viele Bosse und Erfolge hat Deified?",
+          "answer": "Deified bietet sieben Bosse, jeder mit einem einzigartigen Fluch, und 44 Steam-Erfolge für Bossbesiegungen, Fortschrittsmeilensteine, Erkundung und spezielle Ziele."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Deified zu meistern?",
+      "description": "Von deiner ersten Relikt-Wiederherstellung bis zu Endgame-Bosskämpfen – unser Community-Wiki bietet dir kostenlose, aktuelle Deified-Leitfäden.",
+      "primary": "Einsteigerleitfaden lesen",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Deified Leitfaden",
+    "overviewDescription": "Starte stark in Deified mit Einsteiger-Walkthroughs, Tipps für den ersten Run, Reviews und einer Komplett-Run-Roadmap für das düstere taktische Fantasy-Roguelite."
+  },
+  "mechanics": {
+    "overviewTitle": "Deified Mechaniken",
+    "overviewDescription": "Erfahre, wie Deified-Relikte, Synergien, Builds, Skill-Aufbau und Dungeon-Crawling zusammenpassen."
+  },
+  "combat": {
+    "overviewTitle": "Deified Kampf",
+    "overviewDescription": "Meistere rundenbasierten taktischen Kampf in Deified mit Bosskämpfen sowie Nahkampf-, Magier- und Glaskanone-Build-Strategien."
+  },
+  "progression": {
+    "overviewTitle": "Deified Fortschritt",
+    "overviewDescription": "Verfolge Deified-Klassen, Magier- und Bogenschützenpfade, Relikt-Builds und vollständige Release-Details, während dein Run wächst."
+  },
+  "controls": {
+    "overviewTitle": "Deified Steuerung",
+    "overviewDescription": "Prüfe Deified PC-, Tastatur- und Controller-Unterstützung, damit du das taktische Roguelite nach deinem Stil spielst."
+  },
+  "modes": {
+    "overviewTitle": "Deified Spielmodi",
+    "overviewDescription": "Entdecke Deified Roguelite-, Taktik-, rundenbasierte Taktik-, Dungeon-Crawler- und herausfordernde Run-Modi."
+  },
+  "community": {
+    "overviewTitle": "Deified Community",
+    "overviewDescription": "Durchsuche Deified-Gameplay-Clips sowie Reddit-, Steam- und YouTube-Communities an einem Ort."
+  },
+  "codes": {
+    "overviewTitle": "Deified Codes",
+    "overviewDescription": "Finde alle Deified-Codes, Einlöseschritte und Belohnungsdetails, aktualisiert für den neuesten Build."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes ansehen",
+    "playOnSteam": "Auf Steam spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Leitfäden",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Start",
+    "noGuidesAvailable": "Noch keine Leitfäden verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Deified Wiki",
+    "about": "Deified Wiki ist ein unabhängiger, von Fans erstellter Leitfaden-Hub zu Relikten, Builds, Bossen, Fähigkeiten, Kampfstrategien, Erfolgen und wichtigem Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Leitfäden",
+    "legal": "Rechtliches",
+    "copyright": "2026 Deified Wiki. Nicht mit Goblinz Publishing oder Unexpected verbunden.",
+    "description": "Düsteres rundenbasiertes taktisches Fantasy-Roguelite auf Steam. Relikte, Builds, Bosse und Leitfäden.",
+    "playGame": "Deified auf Steam spielen",
+    "officialDiscord": "Steam-Community-Diskussionen",
+    "officialYoutube": "Steam-Community-Leitfäden",
+    "vvBuilder": "Deified Steam-Leitfäden",
+    "beginnerGuide": "Einsteigerleitfaden",
+    "raceGuides": "Relikt-Leitfäden",
+    "bossGuides": "Boss-Leitfäden",
+    "buildGuide": "Build-Leitfäden",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}
