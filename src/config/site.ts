@@ -19,19 +19,15 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
-  social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
-  },
+  name: "Deified Wiki",
+  shortName: "Deified",
+  logoText: "D",
+  tagline: "Builds, Relics, Bosses & Guides",
+  description: "Your ultimate Deified wiki: builds, relics, bosses, skills, combat strategies, achievements and beginner guides for the dark fantasy turn-based tactical roguelite.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://deified.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://deified.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/3623530/Deified/",
+  heroVideoId: "XXalKI6jcIY", // Deified PC gameplay - turn-based tactical roguelite showcase
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
 };
