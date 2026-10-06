@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core turn-based loop, combat fundamentals, and early upgrade priorities so your first runs still move forward."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Relic Restoration",
+          "description": "Understand attunement, consecration, ascension, and the deification ritual that turns a relic into a build-defining mythic item."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Best Builds",
+          "description": "Pick a build archetype before gear and stats, from the fragile Ascendant Striker to the solo-friendly Bulwark Deity."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Deified."
+          "title": "All Codes",
+          "description": "Grab the latest Deified codes for free currency, boosts, and cosmetics, and learn how to redeem them before they expire."
         }
       ]
     },
@@ -66,237 +66,336 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Relic Tiers",
+        "Build Archetypes",
+        "Boss Phases"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "Deified Beginner Guide",
+          "description": "Controls, combat habits, upgrade priorities, and the mistakes that stall new players.",
+          "href": "/guide/deified-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "All Deified Codes",
+          "description": "Working Deified codes with rewards, expiry notes, and step-by-step redeem instructions.",
+          "href": "/codes/deified-codes"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Core",
+          "title": "Deified Relics Explained",
+          "description": "Relic stages, material costs, failure risk, and the S to C deification priority tiers.",
+          "href": "/mechanics/deified-relics"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "Deified Build Archetypes",
+          "description": "Five build shapes compared with stat priorities and breakpoint advice.",
+          "href": "/mechanics/deified-builds"
+        },
+        {
+          "badge": "Bosses",
+          "title": "Deified Boss Fight Guide",
+          "description": "The three-act structure, telegraph reading, and punish charts for divine encounters.",
+          "href": "/combat/deified-boss-fights"
+        },
+        {
+          "badge": "Skills",
+          "title": "Deified Skill Building",
+          "description": "Plan point spending in phases and stop at soft caps before returns diminish.",
+          "href": "/mechanics/deified-skill-building"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Deified Class Progression",
+          "description": "Base, advanced, awakened, and deified class stages with their unlock requirements.",
+          "href": "/progression/deified-classes"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Challenging Roguelike Modes",
+          "description": "How each difficulty modifier removes an advantage and which builds survive the hardest tiers.",
+          "href": "/modes/deified-challenging-roguelike"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Controls",
+          "title": "Deified PC Controls",
+          "description": "Default bindings, remapping steps, and keybinding tweaks for faster reactions.",
+          "href": "/controls/deified-pc-controls"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Deified?",
       "paragraphs": [
-        "Deified is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Deified is a dark fantasy turn-based tactical roguelite developed by Unexpected and published by Goblinz Publishing. You collect cursed relics, restore them through a multi-stage deification ritual, manage powerful slots, and build synergies that carry you through run after run.",
+        "Each run mixes tactical turn-based combat with permanent between-run progression. You face seven formidable bosses, each carrying a unique curse that can disrupt an otherwise reliable strategy, while skill trees and class ascension reopen your growth curve whenever a base kit plateaus. Deified entered Early Access on April 27, 2026 and reached 1.0 on September 21, 2026."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Unexpected"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Publisher",
+          "value": "Goblinz Publishing"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Turn-Based Tactical Roguelite"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Platform",
+          "value": "Steam / PC"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Release Date",
+          "value": "Sep 21, 2026"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Bosses",
+          "value": "7"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Achievements",
+          "value": "44"
+        },
+        {
+          "label": "User Reviews",
+          "value": "460+"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Deified Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master Deified with progression guides, relic and build breakdowns, boss strategies, active codes, and achievement checklists for this dark fantasy tactical roguelite.",
       "modules": [
         {
           "order": 1,
-          "name": "Deified Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/deified-codes",
-          "displayType": "code-box",
+          "name": "Deified Beginner Guide",
+          "description": "Learn the core turn-based roguelite loop, relic restoration, slot management, combat rules, and how to approach your first runs without prior knowledge.",
+          "href": "/guide/deified-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Learn every control and test each action before your first real fight."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Bank your main progression resource instead of spending it on speculative upgrades."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Fund your survival baseline first so you live long enough to learn enemy timing."
+            },
+            {
+              "label": "4",
+              "detail": "Study one boss per session and repeat a single encounter instead of scattering attempts."
+            },
+            {
+              "label": "5",
+              "detail": "Revisit cleared areas, which become efficient resource farms once your build stabilizes."
+            },
+            {
+              "label": "6",
+              "detail": "Reassess your build after every boss before pushing deeper into the run."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/deified-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Deified Relics",
+          "description": "Cover relic types, fragments, restoration, bonuses, drawbacks, and synergy combinations that decide whether a build clears endgame content.",
+          "href": "/mechanics/deified-relics",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Relics that grant a brand-new mechanic or resource — deify these first."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Relics that remove a hard cap or cooldown — deify as soon as materials allow."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Large flat or percentage stat boosts — deify after S and A are funded."
+            },
+            {
+              "label": "C",
+              "detail": "Minor utility or convenience effects — skip unless you have surplus materials."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/deified-tier-list",
-          "displayType": "tier-grid",
+          "name": "Deified Builds",
+          "description": "Organize effective builds around relic synergies, slot choices, and skill progression, with recommended combinations instead of an unsupported character tier list.",
+          "href": "/mechanics/deified-builds",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Striker",
+              "detail": "Ascendant Striker stacks offensive scaling for high single-target boss damage."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Bulwark",
+              "detail": "Bulwark Deity invests in health and mitigation to survive ascension content solo."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Oracle",
+              "detail": "Sustained Oracle keeps groups alive with support power and cooldown reduction."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Hybrid",
+              "detail": "Hybrid Ascendant splits offense and defense for flexible, respec-free runs."
+            },
+            {
+              "label": "Burst",
+              "detail": "Executioner stacks burst and critical stats to delete low-health targets."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/deified-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Deified Bosses",
+          "description": "A practical reference for the game's major bosses, including their unique curses and the combat considerations that decide a clear.",
+          "href": "/combat/deified-boss-fights",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Act 1",
+              "detail": "Mortal phase — clean combos; learn the punish windows and take no risks."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Act 2",
+              "detail": "Ascension phase — a new form and arena changes force a fresh timing chart."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Act 3",
+              "detail": "Desperation phase — compressed timings and enrage; punish only guaranteed openings."
+            },
+            {
+              "label": "Scout",
+              "detail": "Spend one attempt observing instead of winning and build a punish chart."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/deified-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Deified Skill Trees",
+          "description": "Explain skill-tree progression, unlockable options, and how permanent unlocks change the choices available during future runs.",
+          "href": "/mechanics/deified-skill-building",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "1",
+              "detail": "Start with a job description: decide what your build must do before spending a point."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "2",
+              "detail": "Invest in survival and consistency layers before expensive synergy pieces."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "3",
+              "detail": "Budget points in phases and stop at soft caps instead of chasing diminishing returns."
+            },
+            {
+              "label": "4",
+              "detail": "Test each new node in low-risk content before committing to a full respec."
+            },
+            {
+              "label": "5",
+              "detail": "Revisit your tree after every boss, since late unlocks change which paths pay off."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/deified-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Deified Curses",
+          "description": "Explain the curse system and how boss curses can disrupt otherwise reliable strategies, with practical preparation tips for relics, slots, and combat.",
+          "href": "/mechanics/deified-dark-relic-builds",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Scout",
+              "detail": "Boss curses punish greedy builds, so scout each encounter before committing."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Prep",
+              "detail": "Bank healing and defensive relics so a curse cannot remove your only escape."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Relics",
+              "detail": "Some curses disable or invert relic effects, so keep a backup synergy ready."
+            },
+            {
+              "label": "Slots",
+              "detail": "Curse pressure makes slot choices matter — protect the relic that carries your run."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Deified Challenges",
+          "description": "Cover additional challenges, run modifiers, and advanced content introduced through progression and updates, aimed at players wanting more than a standard run.",
+          "href": "/modes/deified-challenging-roguelike",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Modes",
+              "detail": "Each difficulty mode removes an advantage — read the contract before you start."
+            },
+            {
+              "label": "Mods",
+              "detail": "Run modifiers scale enemies and rewards together, so build for consistency."
+            },
+            {
+              "label": "Tiers",
+              "detail": "Harder tiers compress reaction windows; steady damage beats fragile burst."
+            },
+            {
+              "label": "Goals",
+              "detail": "Optional objectives push you past standard runs with unique rewards."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Deified Achievements",
+          "description": "List the game's Steam achievements and organize them by boss defeats, progression milestones, exploration, and special objectives for completion-focused players.",
+          "href": "/guide/deified-full-run",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "First Ascension",
+              "detail": "Complete your first deification ritual.",
+              "badge": "Milestone"
+            },
+            {
+              "label": "Seven Curses",
+              "detail": "Defeat all seven bosses and their unique curses.",
+              "badge": "Boss"
+            },
+            {
+              "label": "Relic Hoarder",
+              "detail": "Restore a full set of relics across every slot.",
+              "badge": "Collection"
+            },
+            {
+              "label": "Skill Architect",
+              "detail": "Unlock the final tier of a skill tree.",
+              "badge": "Progression"
+            },
+            {
+              "label": "Full Clear",
+              "detail": "Finish a complete run without a single defeat.",
+              "badge": "Challenge"
             }
           ]
         }
@@ -308,23 +407,27 @@
       "items": [
         {
           "question": "What is Deified?",
-          "answer": "Deified is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Deified is a dark fantasy turn-based tactical roguelite developed by Unexpected and published by Goblinz Publishing. You collect cursed relics, restore them through deification, manage powerful slots, and fight seven bosses across repeatable runs."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Deified beginner friendly?",
+          "answer": "Deified has a steep opening, but the Deified beginner guide walks you through controls, combat fundamentals, and early upgrade priorities so your first runs still make progress."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What are Deified relics and how do you deify them?",
+          "answer": "Deified relics are equippable artifacts with passive bonuses. You attune, consecrate, and ascend a relic before the final deification step grants a unique mythic effect, and the catalyst for that step is usually the real bottleneck."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Which Deified build should I start with?",
+          "answer": "Start with a survival-focused Bulwark Deity or a flexible Hybrid Ascendant, then move into the Ascendant Striker once you know the boss patterns. Deified rewards consistency over fragile burst early on."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Are there Deified codes?",
+          "answer": "Yes. Deified codes are time-limited promotional strings that grant free currency, boosts, and cosmetics. Redeem them the day you find them, since most expire without warning."
+        },
+        {
+          "question": "How many bosses and achievements does Deified have?",
+          "answer": "Deified features seven bosses, each with a unique curse, and 44 Steam achievements covering boss defeats, progression milestones, exploration, and special objectives."
         }
       ]
     },
@@ -341,7 +444,7 @@
     "activeCodes": "Active Codes",
     "updated": "Updated",
     "viewAllCodes": "View all codes",
-    "playOnRoblox": "Play on Roblox",
+    "playOnSteam": "Play on Steam",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
     "nextSteps": "Next Steps",
