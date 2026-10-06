@@ -9,7 +9,15 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "combat": "Combat",
+    "progression": "Progression",
+    "controls": "Controls",
+    "modes": "Modes",
+    "community": "Community",
+    "codes": "Codes"
   },
   "home": {
     "meta": {
@@ -438,7 +446,38 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Deified Guide",
+    "overviewDescription": "Start strong in Deified with beginner walkthroughs, first-run tips, reviews, and a full-run roadmap for the dark fantasy tactical roguelite."
+  },
+  "mechanics": {
+    "overviewTitle": "Deified Mechanics",
+    "overviewDescription": "Learn how Deified relics, synergies, builds, skill building, and dungeon crawling fit together."
+  },
+  "combat": {
+    "overviewTitle": "Deified Combat",
+    "overviewDescription": "Master turn-based tactical combat in Deified with boss fights plus melee, mage, and glass cannon build strategies."
+  },
+  "progression": {
+    "overviewTitle": "Deified Progression",
+    "overviewDescription": "Track Deified classes, mage and archer paths, relic builds, and full release details as your run grows."
+  },
+  "controls": {
+    "overviewTitle": "Deified Controls",
+    "overviewDescription": "Check Deified PC, keyboard, and controller support so you can play the tactical roguelite your way."
+  },
+  "modes": {
+    "overviewTitle": "Deified Game Modes",
+    "overviewDescription": "Explore Deified roguelite, tactical, turn-based tactics, dungeon crawler, and challenging run modes."
+  },
+  "community": {
+    "overviewTitle": "Deified Community",
+    "overviewDescription": "Browse Deified gameplay clips plus Reddit, Steam, and YouTube communities in one place."
+  },
+  "codes": {
+    "overviewTitle": "Deified Codes",
+    "overviewDescription": "Find all Deified codes, redemption steps, and reward details updated for the latest build."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",

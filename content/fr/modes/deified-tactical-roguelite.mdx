@@ -1,0 +1,136 @@
+export const metadata = {
+  title: "Les modes du roguelite tactique Deified expliqués : des courses d'ascension à l'endgame",
+  description: "Une analyse pratique de chaque mode du roguelite tactique Deified, des courses d'ascension et modificateurs de défi aux gauntlets de boss et aux boucles d'endgame.",
+  category: "modes",
+  date: "2026-10-06",
+}
+
+La décision la plus difficile dans Deified n'est pas le dieu que vous choisissez — c'est le mode que vous lancez.
+
+Dans un roguelite tactique déifié, les modes constituent la véritable courbe de difficulté. Ils déterminent la durée d'une run, la progression permanente que vous engrangez, la part d'aléatoire que vous êtes forcé d'absorber et la brutalité avec laquelle une seule unité mal positionnée est punie. Chargez le mauvais et une build solide se termine quand même dans un haussement d'épaules ; chargez le bon et même une run ratée vous apprend quelque chose que vous utiliserez pendant les vingt prochaines heures.
+
+Cela compte davantage dans ce roguelite tactique déifié que dans un roguelite d'action classique, car le combat tactique récompense la planification plutôt que les réflexes. Vous ne pouvez pas esquiver un mauvais départ. Vous devez choisir le combat qui correspond aux connaissances que vous avez réellement.
+
+## Pourquoi les modes comptent dans un roguelite tactique déifié
+
+Considérez chaque mode comme un contrat. Il vous dit ce que le jeu va vous envoyer, ce qu'il vous laissera conserver et ce qu'il attend que vous compreniez déjà. Quatre variables changent d'un mode à l'autre, et presque toutes les décisions de design en découlent :
+
+- **Durée de la run** — une simple escarmouche contre une ascension complète en plusieurs combats
+- **Variance** — dans quelle mesure la carte, le draft et le pool d'ennemis sont aléatoires
+- **Indulgence** — si une unité à terre est perdue pour la run ou revient au combat suivant
+- **Rendement de progression** — combien de monnaie permanente ou de progression de déblocage une run rapporte
+
+Une fois que vous savez lire un mode selon ces quatre axes, le menu cesse d'être intimidant. Un mode qui semble « plus difficile » n'est souvent qu'un mode avec moins d'indulgence et plus de variance, ce qui pose un problème très différent à résoudre.
+
+| Type de mode | Objectif principal | Forme typique de run | Idéal pour |
+|---|---|---|---|
+| Course d'ascension | S'élever de mortel à divin | Longue, multi-combats | Apprendre les builds et la progression principale |
+| Modificateur de défi | Gagner avec un handicap | Identique à l'ascension, plus serré | Tester la maîtrise |
+| Gauntlet de boss | Enchaîner les élites | Courte, très intense | S'entraîner aux patterns de combat |
+| Run seedée / quotidienne | Concourir sur une carte fixe | Moyenne, une seule tentative | Comparaison équitable au classement |
+| Exercice d'entraînement | Isoler une mécanique | Très courte | Échauffements et nouveaux joueurs |
+
+## La course d'ascension : le mode central de Deified
+
+La course d'ascension est la colonne vertébrale du jeu. C'est le mode que la plupart des joueurs désignent quand ils disent qu'ils « jouent à Deified », et c'est là que le fantasme du passage de mortel à divin prend vraiment corps. Vous commencez avec des outils limités, enchaînez une série de rencontres tactiques et convertissez progressivement la puissance gagnée en améliorations permanentes ou semi-permanentes.
+
+### Comment une run est structurée
+
+Les retours de la communauté décrivent systématiquement le même rythme : une phase de reconnaissance où vous lisez la carte, une phase de déploiement où le positionnement décide de la moitié du résultat, et une phase de résolution où votre gestion des ressources est mise à l'épreuve. La run se termine soit par une ascension accomplie, soit par un wipe qui vous renvoie à la méta-couche.
+
+Ce qui distingue une bonne course d'ascension d'une excellente n'est généralement pas les dégâts bruts. C'est de savoir si vous avez dépensé vos ressources initiales dans quelque chose qui monte en puissance, ou dans quelque chose qui ne règle que le combat suivant.
+
+### Ce qui est conservé entre les runs
+
+La plupart des roguelites tactiques divisent la progression en deux catégories, et Deified suit ce schéma :
+
+- **Puissance liée à la run** — buffs, reliques et capacités draftées qui disparaissent à la fin de la run
+- **Puissance liée à la méta** — déblocages et améliorations de compte qui persistent et élargissent vos options futures
+
+L'expérience des joueurs suggère que le moyen le plus rapide de progresser est de considérer la puissance liée à la méta comme un socle, pas comme une béquille. Si vous ne pouvez pas gagner une course d'ascension propre avec votre kit de départ, les déblocages supplémentaires ne font que masquer un problème de positionnement.
+
+Si vous voulez voir comment le genre dans son ensemble gère cette séparation, [le hub de tags roguelike de Steam](https://store.steampowered.com/tags/en/Roguelike/) est un point de référence utile pour comparer les modèles de progression entre titres similaires.
+
+## Modificateurs de défi et paliers de difficulté
+
+Les modes de défi dans un roguelite tactique déifié ne se contentent pas de rendre les ennemis plus forts. Les bons changent la décision que vous êtes obligé de prendre. Un modificateur qui supprime les soins ne rend pas le jeu plus difficile de façon linéaire — il fait des dégâts d'usure la menace centrale, ce qui change les unités qui valent la peine d'être déployées.
+
+| Type de modificateur | Ce qu'il change | Pour qui |
+|---|---|---|
+| Règles d'attrition | Limite les soins ou le repos entre les combats | Joueurs qui s'appuient trop sur les builds de sustain |
+| Limites de déploiement | Moins d'unités ou zone de départ plus petite | Joueurs qui gagnent par le nombre |
+| Escalade ennemie | Pools d'ennemis plus coriaces ou améliorés | Joueurs qui connaissent les patterns par cœur |
+| Pénurie de ressources | Économie plus serrée pour les améliorations | Joueurs qui forcent avec l'or |
+| Dissimulation d'informations | Intentions ennemies cachées ou brouillard | Vétérans qui veulent une vraie incertitude |
+
+Règle pratique : n'empilez jamais plus d'un modificateur qui attaque le même axe. Deux modificateurs d'attrition transforment un puzzle tactique en guerre d'arithmétique. Un modificateur d'attrition plus un modificateur d'information, en revanche, produisent ce type de run tendue et improvisée dont la plupart des joueurs se souviennent.
+
+Les paliers de difficulté augmentent généralement les courbes de statistiques ennemies et la densité des rencontres, tandis que les modificateurs changent les règles elles-mêmes. Le palier concerne la marge d'erreur ; le modificateur concerne la forme du problème. Si vous êtes bloqué, baissez d'un palier avant de retirer un modificateur — vous apprendrez plus du modificateur et perdrez moins du palier.
+
+## Gauntlets de boss, chasses d'élites et boucles d'endgame
+
+Une fois l'ascension principale terminée, l'essentiel du jeu à long terme dans un roguelite tactique déifié se déroule dans des modes d'endgame ciblés. Ils sont généralement plus courts, plus denses et bien moins indulgents que le parcours de campagne.
+
+### Gauntlets de boss
+
+Les gauntlets enchaînent les rencontres d'élites et de boss sans les pauses de rythme d'une run normale. La valeur n'est pas dans la récompense — elle est dans la répétition. Affronter le même pattern cinq fois d'affilée est le moyen le plus rapide d'intégrer un télégraphe que vous ne faisiez que subir au lieu de le lire.
+
+### Chasses d'élites
+
+Les chasses d'élites sont le juste milieu : un petit nombre de cibles à forte valeur sur une carte qui vous laisse encore manœuvrer. Elles sont excellentes pour tester une idée de build isolée, car vous obtenez un vrai combat sans toute la préparation d'une run complète.
+
+| Pattern de menace | Indice courant | Contre-mesure |
+|---|---|---|
+| Ouverture en burst | Animation de préparation au premier tour | Étalez le déploiement, attirez avec une unité tanky |
+| Invocateur | Des adds apparaissent avant l'attaque principale | Priorisez l'invocateur plutôt que le boss |
+| Déni de zone | Zones télégraphiées sur la grille | Repositionnez-vous avant d'engager les dégâts |
+| Posture de contre | Posture défensive après votre premier coup | Retardez votre plus grosse attaque d'un tour |
+| Changement de phase | Un seuil de vie déclenche un changement | Gardez un cooldown de burst pour le changement |
+
+### Boucles d'endgame
+
+Les modes d'endgame supposent généralement que vous comprenez déjà les systèmes, donc ils punissent le draft cupide et récompensent une exécution propre. Le piège ici est de les considérer comme une vérification d'équipement. En pratique, les retours de la communauté suggèrent que la plupart des échecs en endgame viennent du tempo — passer un tour de trop à se préparer — plutôt que d'une puissance insuffisante.
+
+## Choisir le bon mode : tableaux, astuces et erreurs courantes
+
+Le choix du mode doit être guidé par ce que vous voulez améliorer, pas par ce qui rapporte la plus grosse récompense. Utilisez la matrice ci-dessous comme filtre de départ.
+
+| Mode | Indulgence | Flexibilité de build | Rendement de progression | Recommandé quand |
+|---|---|---|---|---|
+| Course d'ascension | Moyenne | Élevée | Élevé | Vous apprenez ou poussez l'ascension principale |
+| Modificateur de défi | Faible | Moyenne | Élevé | Vous connaissez les rencontres et voulez un test |
+| Gauntlet de boss | Très faible | Faible | Moyen | Vous avez besoin de pratiquer les patterns |
+| Seedée / quotidienne | Moyenne | Moyenne | Faible | Vous voulez une comparaison équitable avec les autres |
+| Exercice d'entraînement | Élevée | Élevée | Très faible | Vous êtes nouveau ou vous vous échauffez |
+
+### Erreurs courantes selon le mode
+
+| Erreur | Pourquoi c'est nuisible | Correction |
+|---|---|---|
+| Jouer une run avec modificateur pour apprendre le jeu | Vous empilez les inconnues | Apprenez d'abord sur une course d'ascension propre |
+| Drafter avec cupidité dans les gauntlets | Les modes courts punissent la montée en puissance lente | Prenez de la valeur immédiate tôt |
+| Redémarrer les runs quotidiennes | Les cartes fixes suppriment de toute façon la variance | Jouez la run jusqu'au bout, notez les leçons |
+| Ignorer l'ordre de déploiement | La position bat les statistiques en combat tactique | Reconnaissez d'abord, déployez ensuite, engagez en dernier |
+| Courir après les déblocages méta plutôt que les fondamentaux | Les déblocages élargissent les options, pas le skill | Gagnez une run propre avant d'acheter de la puissance |
+
+### Astuces pratiques valables dans tous les modes
+
+- **Reconnaissez avant de vous engager.** Dans un roguelite tactique déifié, l'information est une ressource comme une autre.
+- **Décidez tôt votre condition de victoire.** Sachez si vous construisez pour un kill rapide ou un long grind.
+- **Suivez vos défaites, pas vos victoires.** La plupart des progrès viennent de la run que vous avez presque sauvée.
+- **Alternez les modes quand vous tiltez.** Passer d'une run avec modificateur à un exercice réinitialise votre patience.
+- **Utilisez les runs seedées pour isoler les variables.** Même carte, décisions différentes — c'est une expérience contrôlée.
+
+## FAQ
+
+**Quel est le meilleur mode pour commencer dans le roguelite tactique Deified ?**
+La course d'ascension standard. C'est celle qui offre le plus d'indulgence par rapport à son rendement de progression, et elle enseigne les systèmes de déploiement et de ressources dont vous aurez besoin partout ailleurs. Gardez les modificateurs de défi pour plus tard, jusqu'à ce que vous puissiez terminer une run propre sans perdre une unité.
+
+**Les modes partagent-ils la progression dans Deified ?**
+D'après l'expérience des joueurs, la plupart des modes alimentent la même méta-couche, même si les quantités diffèrent. Les modes ciblés comme les gauntlets et les exercices ont tendance à rapporter moins de progression permanente, car ils sont conçus pour l'entraînement plutôt que pour l'avancement.
+
+**Les runs quotidiennes ou seedées ont-elles la même carte pour tout le monde ?**
+C'est tout l'intérêt d'un mode seedé — la disposition, les rencontres et le pool de draft sont fixes, donc les comparaisons de classement reflètent la prise de décision plutôt que la chance. C'est la façon la plus propre de mesurer si vous progressez réellement.
+
+**Puis-je m'entraîner sur un boss précis sans faire toute l'ascension ?**
+Oui, et vous devriez. Les gauntlets de boss et les chasses d'élites existent précisément pour que vous puissiez répéter un pattern jusqu'à lire son télégraphe au lieu d'y réagir. La répétition dans un roguelite tactique déifié n'est pas du grinding — c'est de l'étude.
